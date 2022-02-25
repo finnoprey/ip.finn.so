@@ -1,26 +1,7 @@
-.box-primary {
-	border-radius: 15px;
-	line-height: 2em;
-	margin-top: 9%;
-	padding: 18%;
-}
-
 @media (prefers-color-scheme: dark) {
 	body {
 		background: #161616;
 		color: white;
-	}
-
-	.box-primary {
-		background: linear-gradient(47deg, rgb(62, 133, 71) 0%, rgb(196, 240, 52) 100%);
-	}
-
-	.box-1 {
-		background: linear-gradient(47deg, rgb(32, 32, 32) 0%, rgb(25, 25, 25)100%);
-	}
-
-	.box-2 {
-		background: linear-gradient(20deg, rgb(200, 183, 53) 0%, rgb(236, 170, 47)100%);
 	}
 }
 
@@ -29,18 +10,6 @@
 		background: #EBEBEB;
 		color: white;
 	}
-
-	.box-primary {
-		background: linear-gradient(47deg, rgb(62, 133, 71) 0%, rgb(196, 240, 52) 100%);
-	}
-
-	.box-1 {
-		background: linear-gradient(47deg, rgb(92, 92, 92) 0%, rgb(185, 185, 185)100%);
-	}
-
-	.box-2 {
-		background: linear-gradient(20deg, rgb(200, 183, 53) 0%, rgb(236, 170, 47)100%);
-	}
 }
 
 .container {
@@ -48,25 +17,11 @@
 	margin: auto;
 }
 
-.box-1 {
-	border-radius: 15px;
-  line-height: 2em;
-	margin-top: 9%;
-	padding: 18%;
-}
-
-.box-2 {
-	border-radius: 15px;
-	margin-top: 9%;
-	margin-bottom: 10%;
-	padding: 18%;
-}
-
 h1 {
 	font-weight: 700;
 }
 
 p1 {
-	font-weight: 100;
+	font-weight: 400;
 }
 
