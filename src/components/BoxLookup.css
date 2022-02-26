@@ -3,6 +3,7 @@
   line-height: 2em;
 	margin-top: 9%;
 	padding: 18%;
+	line-height: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
