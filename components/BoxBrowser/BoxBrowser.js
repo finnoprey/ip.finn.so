@@ -1,9 +1,8 @@
-import React from 'react'
-import './BoxBrowser.css'
+import styles from './BoxBrowser.module.css'
 
 export default function BoxBrowser() {
   return (
-    <div className='box-browser'>
+    <div className={styles.boxBrowser}>
       <h1>Browser Information</h1>
       <p><i>Coming Soon...</i></p>
     </div>
