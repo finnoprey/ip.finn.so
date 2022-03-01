@@ -1,4 +1,4 @@
-.box-lookup {
+.boxLookup {
 	border-radius: 15px;
   line-height: 2em;
 	margin-top: 9%;
@@ -7,13 +7,13 @@
 }
 
 @media (prefers-color-scheme: dark) {
-	.box-lookup {
+	.boxLookup {
 		background: linear-gradient(47deg, rgb(32, 32, 32) 0%, rgb(25, 25, 25)100%);
 	}
 }
 
 @media (prefers-color-scheme: light) {
-  .box-lookup {
+  .boxLookup {
     background: linear-gradient(47deg, rgb(92, 92, 92) 0%, rgb(185, 185, 185)100%);
   }
 }
