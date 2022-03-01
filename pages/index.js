@@ -37,6 +37,7 @@ function Main() {
         />
         <meta name="theme-color" content="#89c13c" />
 
+        <link rel="apple-touch-icon" href="/logo192.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='container'>
