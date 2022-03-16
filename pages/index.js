@@ -39,6 +39,8 @@ function Main() {
 
         <link rel="apple-touch-icon" href="/logo192.png" />
         <link rel="icon" href="/favicon.ico" />
+
+        <script data-no-cookie async src="https://cdn.splitbee.io/sb.js"></script>
       </Head>
       <div className='container'>
         <BoxTitle data={data}/>
