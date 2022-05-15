@@ -1,4 +1,4 @@
-import styles from './BoxBrowser.module.css'
+import styles from './BoxBrowser.module.scss'
 
 export default function BoxBrowser() {
   return (

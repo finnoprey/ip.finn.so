@@ -1,4 +1,4 @@
-import styles from './BoxTitle.module.css'
+import styles from './BoxTitle.module.scss'
 
 export default function BoxTitle(props) {
   return (

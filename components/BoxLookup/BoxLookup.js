@@ -1,4 +1,4 @@
-import styles from './BoxLookup.module.css'
+import styles from './BoxLookup.module.scss'
 
 export default function BoxLookup(props) {
   return (

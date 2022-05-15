@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import BoxBrowser from '../components/BoxBrowser/BoxBrowser';
 import BoxLookup from '../components/BoxLookup/BoxLookup';
 import BoxTitle from '../components/BoxTitle/BoxTitle';
@@ -39,9 +40,8 @@ function Main() {
 
         <link rel="apple-touch-icon" href="/logo192.png" />
         <link rel="icon" href="/favicon.ico" />
-
-        <script data-no-cookie async src="https://cdn.splitbee.io/sb.js"></script>
       </Head>
+      <Script data-no-cookie async src="https://cdn.splitbee.io/sb.js" />
       <div className='container'>
         <BoxTitle data={data}/>
         <BoxLookup data={data}/>
